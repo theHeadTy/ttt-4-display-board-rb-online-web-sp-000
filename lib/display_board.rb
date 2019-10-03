@@ -14,23 +14,15 @@ def display_board(board = Array.new(9, " "))
   
 end
 
-board = Array.new(9, " ")
-
-display_board()
-
-display_board(board[4] = "X")
-
-display_board(board[0] = "O")
-
 
 # empty board
 #board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 #display_board(board)
-#display_board()
+display_board()
 
 # X center
-#board1 = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-#display_board(board)
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+display_board(board)
 
 # O top left
 #board2 = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
