@@ -153,7 +153,8 @@ Make sure to be interpolating data from the `board` array within your `display_b
 2. Get the test suite passing by running `learn`
 3. Submit your solution.
 
-## Hint: The `rspec --fail-fast` test flag
+## Hint: The 
+` test flag
 
 To ensure that your `display_board` method honestly works as expected, we had to write a lot of tests to flex the different situations that might occur. When you run `learn`, you're going to see lots of failing tests that are all basically failing for the same reason - `display_board` isn't behaving as desired. It might be easier to deal with one test failure at a time and scrolling through the output of 12 failures isn't helpful.
 
