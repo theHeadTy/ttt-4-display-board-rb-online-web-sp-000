@@ -19,8 +19,8 @@ end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board(board)
 
-board2 = [" ", " ", " ", " ", "X ", " ", " ", " ", " "]
-display_board(board)
+board2 = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+display_board(board2)
 
-display_board(board)
-board = [" ", " ", " ", " ", " O ", " ", " ", " ", " "]
+board3 = [" ", " ", " ", " ", "O", " ", " ", " ", " "]
+display_board(board3)
