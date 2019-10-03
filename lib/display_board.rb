@@ -14,10 +14,6 @@ def display_board(board = Array.new(9, " "))
   
 end
 
-
-# empty board
-#board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-#display_board(board)
 display_board()
 
 # X center
