@@ -14,78 +14,34 @@ def display_board(board = Array.new(9, "  "))
   
 end
 
-board = Array.new(9, " ")
-
-
-# empty
-display_board(board)
-
-
-# X center
-board[4] = "X"
-display_board(board)
-
-# O top left
-board 
-board[0] = "O"
-display_board(board)
-
-# X center & O top left
-board[4] = "X"
-board[0] = "O"
-display_board(board)
-
-# X winning via top row
-board[0] = "X"
-board[1] = "X"
-board[2] = "X"
-display_board(board)
-
-# O winning via bottom row
-board[6] = "O"
-board[7] = "O"
-board[8] = "O"
-display_board(board)
-
-# X winning top left to bottom right diagnal
-board[0] = "X"
-board[4] = "X"
-board[8] = "X"
-
-# O winning top right to bottom left diagnal
-board[2] = "O"
-board[4] = "O"
-board[6] = "O"
-
-
 # empty board
-#board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-#display_board(board)
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+display_board(board)
 
 # X center
-#board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-#display_board(board)
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+display_board(board)
 
 # O top left
-#board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
+board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
 
 # X center & O top left
-#board = ["O", " ", " ", " ", "X", " ", " ", " ", " "]
-#display_board(board)
+board = ["O", " ", " ", " ", "X", " ", " ", " ", " "]
+display_board(board)
 
 # X winning via top row
-#board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
-#display_board(board)
+board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
+display_board(board)
 
 # O winning via bottom row
-#board = [" ", " ", " ", " ", " ", " ", "O", "O", "O"]
-#display_board(board)
+board = [" ", " ", " ", " ", " ", " ", "O", "O", "O"]
+display_board(board)
 
 # X winning top left to bottom right diagnal
-#board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
-#display_board(board)
+board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
+display_board(board)
 
 # O winning top right to bottom left diagnal
-#board = [" ", " ", "O", " ", "O", " ", "O", " ", " "]
-#display_board(board)
+board = [" ", " ", "O", " ", "O", " ", "O", " ", " "]
+display_board(board)
 
