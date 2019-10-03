@@ -26,6 +26,7 @@ board[4] = "X"
 display_board(board)
 
 # O top left
+board 
 board[0] = "O"
 display_board(board)
 
