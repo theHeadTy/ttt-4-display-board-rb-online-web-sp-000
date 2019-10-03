@@ -14,7 +14,9 @@ def display_board(board = Array.new(9, "  "))
   
 end
 
-boardArr = []
+boardArr = Array.new(9, " ")
+boardArr[4] = "X"
+display_board(boardArr)
 
 
 # empty board
