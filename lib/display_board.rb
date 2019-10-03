@@ -33,11 +33,11 @@ display_board(
 #display_board()
 
 # X center
-board1 = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-display_board(board)
+#board1 = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+#display_board(board)
 
 # O top left
-board2 = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
+#board2 = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
 
 # X center & O top left
 board = ["O", " ", " ", " ", "X", " ", " ", " ", " "]
