@@ -16,10 +16,19 @@ end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board(board)
 
-# X middle
+# X center
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 display_board(board)
 
-# O middle
+# O top left
+board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
+
+# X center & O top left
+board = ["O", " ", " ", " ", "X", " ", " ", " ", " "]
+display_board(board)
+
+# X winning via bottom row
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 display_board(board)
+
+
