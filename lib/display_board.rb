@@ -18,3 +18,8 @@ display_board(board)
 
 # X middle
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+display_board(board)
+
+# O middle
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+display_board(board)
