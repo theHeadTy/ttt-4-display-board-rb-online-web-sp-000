@@ -20,11 +20,11 @@ end
 display_board()
 
 # X center
-board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+board1 = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 display_board(board)
 
 # O top left
-board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
+board2 = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
 
 # X center & O top left
 board = ["O", " ", " ", " ", "X", " ", " ", " ", " "]
