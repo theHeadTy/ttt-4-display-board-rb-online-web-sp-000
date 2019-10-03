@@ -23,7 +23,7 @@ display_board(
   )
 
 display_board(
-  board[0] = "X"
+  board[0] = "O"
   )
 
 
