@@ -19,7 +19,7 @@ end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board(board)
 
-board = [" ", " ", " ", " ", "X ", " ", " ", " ", " "]
+board2 = [" ", " ", " ", " ", "X ", " ", " ", " ", " "]
 display_board(board)
 
 display_board(board)
