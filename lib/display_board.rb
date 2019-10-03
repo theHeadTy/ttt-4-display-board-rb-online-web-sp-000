@@ -3,20 +3,16 @@
 
 def display_board(board = Array.new(9, " "))
   
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
-  puts "-----------"
+  puts "#{board[0]}|#{board[1]}|#{board[3]}"
+
   
-  #puts "\n"
+  puts "\n"
   
 end
 
 
 # empty board
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+#board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board(board)
 
 board2 = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
