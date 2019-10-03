@@ -24,8 +24,8 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board(board)
 
 # X center
-board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-display_board(board)
+#board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+#display_board(board)
 
 # O top left
 board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
