@@ -27,8 +27,19 @@ board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
 board = ["O", " ", " ", " ", "X", " ", " ", " ", " "]
 display_board(board)
 
-# X winning via bottom row
-board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+# X winning via top row
+board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
 display_board(board)
 
+# O winning via bottom row
+board = [" ", " ", " ", " ", " ", " ", "O", "O", "O"]
+display_board(board)
+
+# X winning top left to bottom right diagnal
+board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
+display_board(board)
+
+# O winning top right to bottom left diagnal
+board = [" ", " ", "O", " ", "O", " ", "O", " ", " "]
+display_board(board)
 
