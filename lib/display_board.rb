@@ -17,4 +17,4 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board(board)
 
 # X middle
-board = 
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
