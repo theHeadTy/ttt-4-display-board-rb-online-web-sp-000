@@ -22,6 +22,7 @@ display_board(board)
 
 # O top left
 board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
+display_board(board)
 
 # X center & O top left
 board = ["O", " ", " ", " ", "X", " ", " ", " ", " "]
